@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69DB6CB20905019005E0338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D69DB6CA20905019005E0338 /* AppDelegate.m */; };
+		D69DB6CE20905019005E0338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69DB6CD20905019005E0338 /* ViewController.m */; };
+		D69DB6D120905019005E0338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69DB6CF20905019005E0338 /* Main.storyboard */; };
+		D69DB6D32090501C005E0338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69DB6D22090501C005E0338 /* Assets.xcassets */; };
+		D69DB6D62090501C005E0338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69DB6D42090501C005E0338 /* LaunchScreen.storyboard */; };
+		D69DB6D92090501C005E0338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D69DB6D82090501C005E0338 /* main.m */; };
+		D69DB6E32090501D005E0338 /* CherryPickTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D69DB6E22090501D005E0338 /* CherryPickTestTests.m */; };
+		D69DB6EE2090501D005E0338 /* CherryPickTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D69DB6ED2090501D005E0338 /* CherryPickTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69DB6DF2090501D005E0338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69DB6BE20905019005E0338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69DB6C520905019005E0338;
+			remoteInfo = CherryPickTest;
+		};
+		D69DB6EA2090501D005E0338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69DB6BE20905019005E0338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69DB6C520905019005E0338;
+			remoteInfo = CherryPickTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69DB6C620905019005E0338 /* CherryPickTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CherryPickTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69DB6C920905019005E0338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D69DB6CA20905019005E0338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D69DB6CC20905019005E0338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D69DB6CD20905019005E0338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D69DB6D020905019005E0338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D69DB6D22090501C005E0338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69DB6D52090501C005E0338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69DB6D72090501C005E0338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69DB6D82090501C005E0338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D69DB6DE2090501D005E0338 /* CherryPickTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryPickTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69DB6E22090501D005E0338 /* CherryPickTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryPickTestTests.m; sourceTree = "<group>"; };
+		D69DB6E42090501D005E0338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69DB6E92090501D005E0338 /* CherryPickTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryPickTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69DB6ED2090501D005E0338 /* CherryPickTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryPickTestUITests.m; sourceTree = "<group>"; };
+		D69DB6EF2090501D005E0338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69DB6C320905019005E0338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DB6DB2090501D005E0338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DB6E62090501D005E0338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69DB6BD20905019005E0338 = {
+			isa = PBXGroup;
+			children = (
+				D69DB6C820905019005E0338 /* CherryPickTest */,
+				D69DB6E12090501D005E0338 /* CherryPickTestTests */,
+				D69DB6EC2090501D005E0338 /* CherryPickTestUITests */,
+				D69DB6C720905019005E0338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69DB6C720905019005E0338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69DB6C620905019005E0338 /* CherryPickTest.app */,
+				D69DB6DE2090501D005E0338 /* CherryPickTestTests.xctest */,
+				D69DB6E92090501D005E0338 /* CherryPickTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69DB6C820905019005E0338 /* CherryPickTest */ = {
+			isa = PBXGroup;
+			children = (
+				D69DB6C920905019005E0338 /* AppDelegate.h */,
+				D69DB6CA20905019005E0338 /* AppDelegate.m */,
+				D69DB6CC20905019005E0338 /* ViewController.h */,
+				D69DB6CD20905019005E0338 /* ViewController.m */,
+				D69DB6CF20905019005E0338 /* Main.storyboard */,
+				D69DB6D22090501C005E0338 /* Assets.xcassets */,
+				D69DB6D42090501C005E0338 /* LaunchScreen.storyboard */,
+				D69DB6D72090501C005E0338 /* Info.plist */,
+				D69DB6D82090501C005E0338 /* main.m */,
+			);
+			path = CherryPickTest;
+			sourceTree = "<group>";
+		};
+		D69DB6E12090501D005E0338 /* CherryPickTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69DB6E22090501D005E0338 /* CherryPickTestTests.m */,
+				D69DB6E42090501D005E0338 /* Info.plist */,
+			);
+			path = CherryPickTestTests;
+			sourceTree = "<group>";
+		};
+		D69DB6EC2090501D005E0338 /* CherryPickTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69DB6ED2090501D005E0338 /* CherryPickTestUITests.m */,
+				D69DB6EF2090501D005E0338 /* Info.plist */,
+			);
+			path = CherryPickTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69DB6C520905019005E0338 /* CherryPickTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69DB6F22090501D005E0338 /* Build configuration list for PBXNativeTarget "CherryPickTest" */;
+			buildPhases = (
+				D69DB6C220905019005E0338 /* Sources */,
+				D69DB6C320905019005E0338 /* Frameworks */,
+				D69DB6C420905019005E0338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CherryPickTest;
+			productName = CherryPickTest;
+			productReference = D69DB6C620905019005E0338 /* CherryPickTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69DB6DD2090501D005E0338 /* CherryPickTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69DB6F52090501D005E0338 /* Build configuration list for PBXNativeTarget "CherryPickTestTests" */;
+			buildPhases = (
+				D69DB6DA2090501D005E0338 /* Sources */,
+				D69DB6DB2090501D005E0338 /* Frameworks */,
+				D69DB6DC2090501D005E0338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69DB6E02090501D005E0338 /* PBXTargetDependency */,
+			);
+			name = CherryPickTestTests;
+			productName = CherryPickTestTests;
+			productReference = D69DB6DE2090501D005E0338 /* CherryPickTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69DB6E82090501D005E0338 /* CherryPickTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69DB6F82090501D005E0338 /* Build configuration list for PBXNativeTarget "CherryPickTestUITests" */;
+			buildPhases = (
+				D69DB6E52090501D005E0338 /* Sources */,
+				D69DB6E62090501D005E0338 /* Frameworks */,
+				D69DB6E72090501D005E0338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69DB6EB2090501D005E0338 /* PBXTargetDependency */,
+			);
+			name = CherryPickTestUITests;
+			productName = CherryPickTestUITests;
+			productReference = D69DB6E92090501D005E0338 /* CherryPickTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69DB6BE20905019005E0338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "赵宏亚";
+				TargetAttributes = {
+					D69DB6C520905019005E0338 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D69DB6DD2090501D005E0338 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D69DB6C520905019005E0338;
+					};
+					D69DB6E82090501D005E0338 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D69DB6C520905019005E0338;
+					};
+				};
+			};
+			buildConfigurationList = D69DB6C120905019005E0338 /* Build configuration list for PBXProject "CherryPickTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69DB6BD20905019005E0338;
+			productRefGroup = D69DB6C720905019005E0338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69DB6C520905019005E0338 /* CherryPickTest */,
+				D69DB6DD2090501D005E0338 /* CherryPickTestTests */,
+				D69DB6E82090501D005E0338 /* CherryPickTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69DB6C420905019005E0338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69DB6D62090501C005E0338 /* LaunchScreen.storyboard in Resources */,
+				D69DB6D32090501C005E0338 /* Assets.xcassets in Resources */,
+				D69DB6D120905019005E0338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DB6DC2090501D005E0338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DB6E72090501D005E0338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69DB6C220905019005E0338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69DB6CE20905019005E0338 /* ViewController.m in Sources */,
+				D69DB6D92090501C005E0338 /* main.m in Sources */,
+				D69DB6CB20905019005E0338 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DB6DA2090501D005E0338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69DB6E32090501D005E0338 /* CherryPickTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DB6E52090501D005E0338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69DB6EE2090501D005E0338 /* CherryPickTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69DB6E02090501D005E0338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69DB6C520905019005E0338 /* CherryPickTest */;
+			targetProxy = D69DB6DF2090501D005E0338 /* PBXContainerItemProxy */;
+		};
+		D69DB6EB2090501D005E0338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69DB6C520905019005E0338 /* CherryPickTest */;
+			targetProxy = D69DB6EA2090501D005E0338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69DB6CF20905019005E0338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69DB6D020905019005E0338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D69DB6D42090501C005E0338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69DB6D52090501C005E0338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69DB6F02090501D005E0338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D69DB6F12090501D005E0338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69DB6F32090501D005E0338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = CherryPickTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.CherryPickTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69DB6F42090501D005E0338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = CherryPickTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.CherryPickTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69DB6F62090501D005E0338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = CherryPickTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.CherryPickTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherryPickTest.app/CherryPickTest";
+			};
+			name = Debug;
+		};
+		D69DB6F72090501D005E0338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = CherryPickTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.CherryPickTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherryPickTest.app/CherryPickTest";
+			};
+			name = Release;
+		};
+		D69DB6F92090501D005E0338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = CherryPickTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.CherryPickTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CherryPickTest;
+			};
+			name = Debug;
+		};
+		D69DB6FA2090501D005E0338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = CherryPickTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.CherryPickTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CherryPickTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69DB6C120905019005E0338 /* Build configuration list for PBXProject "CherryPickTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69DB6F02090501D005E0338 /* Debug */,
+				D69DB6F12090501D005E0338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69DB6F22090501D005E0338 /* Build configuration list for PBXNativeTarget "CherryPickTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69DB6F32090501D005E0338 /* Debug */,
+				D69DB6F42090501D005E0338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69DB6F52090501D005E0338 /* Build configuration list for PBXNativeTarget "CherryPickTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69DB6F62090501D005E0338 /* Debug */,
+				D69DB6F72090501D005E0338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69DB6F82090501D005E0338 /* Build configuration list for PBXNativeTarget "CherryPickTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69DB6F92090501D005E0338 /* Debug */,
+				D69DB6FA2090501D005E0338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69DB6BE20905019005E0338 /* Project object */;
+}
