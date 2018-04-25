@@ -25,6 +25,10 @@
     
     NSLog(@"修改了bug2");
     NSLog(@"修改了bug3");
+    NSLog(@"天道一");
+    NSLog(@"天道二");
+    NSLog(@"天道三");
+    NSLog(@"天道四");
     
     
 }
