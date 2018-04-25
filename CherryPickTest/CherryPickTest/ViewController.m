@@ -19,13 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    NSLog(@"第四");
     
-    NSLog(@"修改了bug1");
-    
-    NSLog(@"修改了bug2");
-    
-    NSLog(@"第三");
     
     
 }
