@@ -21,7 +21,9 @@
     
     NSLog(@"第四");
     
-    NSLog(@"修改了bug1")
+    NSLog(@"修改了bug1");
+    
+    NSLog(@"修改了bug2")
     
     
 }
